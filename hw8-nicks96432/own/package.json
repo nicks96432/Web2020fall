@@ -1,0 +1,46 @@
+{
+	"name": "react-chat-graphql",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@apollo/client": "^3.3.6",
+		"antd": "^4.8.4",
+		"dotenv-defaults": "^2.0.1",
+		"graphql-yoga": "^1.18.3",
+		"mongoose": "^5.10.15",
+		"nodemon": "^2.0.6",
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1",
+		"react-scripts": "4.0.0"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"server": "nodemon --exec babel-node server/index.js"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.12.1",
+		"@babel/core": "^7.12.10",
+		"@babel/node": "^7.12.6",
+		"@babel/preset-env": "^7.12.11"
+	}
+}
